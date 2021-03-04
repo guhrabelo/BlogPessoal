@@ -56,6 +56,7 @@ public class UsuarioController {
 		}
 		
 	}
+	
 
 	@PutMapping
 	public ResponseEntity<Usuario> Put(@RequestBody Usuario usuario) {
